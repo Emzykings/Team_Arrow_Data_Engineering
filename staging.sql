@@ -1,0 +1,26 @@
+-- Copy each table one by one
+CREATE OR REPLACE TABLE ARROW.crop_staging_table AS
+SELECT * FROM DFA23RAWDATA.RAWDATA.CROPDATARAW;
+
+-- Copy each table one by one
+CREATE OR REPLACE TABLE ARROW.weather_staging_table AS
+SELECT * FROM DFA23RAWDATA.RAWDATA.WEATHERDATARAW;
+
+-- Copy each table one by one
+CREATE OR REPLACE TABLE ARROW.location_staging_table AS
+SELECT * FROM DFA23RAWDATA.RAWDATA.LOCATIONDATARAW;
+
+-- Copy each table one by one
+CREATE OR REPLACE TABLE ARROW.pest_staging_table AS
+SELECT * FROM DFA23RAWDATA.RAWDATA.PESTDATARAW;
+
+-- Copy each table one by one
+CREATE OR REPLACE TABLE ARROW.sensor_staging_table AS
+SELECT * FROM DFA23RAWDATA.RAWDATA.SENSORDATARAW;
+
+-- Copy each table one by one
+CREATE OR REPLACE TABLE ARROW.soil_staging_table AS
+SELECT * FROM DFA23RAWDATA.RAWDATA.SOILDATARAW;
+
+
+
